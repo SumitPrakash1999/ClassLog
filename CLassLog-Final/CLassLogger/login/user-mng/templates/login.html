@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+
+<div class="form-container">
+    <form method="POST">
+        <h2>Login</h2>
+        <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" name="username" required>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn text-white" style="background-color: #6f42c1;">Login</button>
+        <a class="nav-link" style="float: right" href="/register">Register</a>
+        <a class="nav-link" style="float: right" href="/reset_password">Forgot Password</a>
+    </form>
+    
+</div>
+{% endblock %}

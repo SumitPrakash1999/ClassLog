@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.profile-container {
+    text-align: center;
+    margin-top: 50px;
+}

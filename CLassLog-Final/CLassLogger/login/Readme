@@ -1,0 +1,2 @@
+The Login code is not integrated with other compoenents. 
+To use it, ui code needs to be add in frontend folder files e.g. App.js, App.css, etc.
